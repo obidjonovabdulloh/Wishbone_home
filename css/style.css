@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 100%;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+:root{
+    --color--: #403E3B;
+    --color1--:#645C55;
+    --color2--:#ECE7E4;
+    --color3--:#FD665E;
+    --color4--:#1B1A1A;
+}
+header .navbar .navitem{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+header .navbar img{
+    width: 200px;
+}
+header .navbar .navtitle{
+    display: flex;
+    align-items: center;
+}
+header .navbar .navtitle li {
+    padding: 0 15px;
+}
+header .navbar .navtitle li a{
+    color: black;
+    transition: .60s;
+}
+header .navbar .navtitle li a:hover{
+    color: var(--color3--);
+    transform: scale(1.1);
+}
+header .navbar .navtitle .navli a{
+    border: 1px solid var(--color4--);
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+header .navbar .navtitle .navli a:hover{
+    color: white;
+    background: var(--color4--);
+}
+header .main1 {
+    background: var(--color2--) 0 0 / cover;
+}
+header .main1 .navmain{
+    display: flex;
+    align-items: center;
+}
+header .main1 .navmain .navabu .navlink{
+    color: var(--color1--);
+    letter-spacing: 1px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+header .navmain .navphoto img{
+    width: 550px;
+}
+header .navmain .navabu h2{
+    font-size: 50px;
+    font-weight: 400;
+    width: 60%;
+}
+header .navmain .navabu p{
+    color: var(--color1--);
+    width: 75%;
+    line-height: 25px;
+    padding: 20px 0px;
+
+}
+header .navmain .navabu .navlink1{
+    border: 1px solid var(--color--);
+    padding: 10px 20px;
+    color: var(--color4--);
+    border-radius: 5px;
+    transition: .60s;
+}
+header .navmain .navabu .navlink1:hover{
+    background: var(--color4--);
+    color: white;
+}
+.main .section1 .container{
+    position: relative;
+}
+.main .section1 .sec1_title{
+    margin-top: 100px;
+}
+.main .section1 .sec1_title::before{
+    content: "Our firm ";
+    position: absolute;
+    width: 10%;
+    height: 1%;
+    font-size: 30px;
+    color: var(--color--);
+    right: 65%;
+    top: 3%;
+}
+.main .section1 .sec1_title p{
+    color: var(--color1--);
+    width: 35%;
+    line-height: 25px;
+    padding: 20px 0px;
+    margin-left: 600px;
+}
+.main .section1 .sec1_title .sec1_item img{
+    width: 70px;
+}
+.main .section1 .sec1_title .sec1_item{
+    display: flex;
+    align-items: center;
+    margin-left: 600px;
+}
+.main .section1 .sec1_title .sec1_item .sec1_infors{
+    margin-left: 20px;
+}
+.main .section1 .sec1_title .sec1_item .sec1_infors a{
+    color: var(--color1--);
+}
+.main .section2{
+    background: url(../img/IMAGE\ \(6\).png) no-repeat 0 0/ cover;
+    background-size: 100%;
+    padding: 245px 0px;
+    margin-top: 100px;
+}
+.main .section2 a{
+    color: var(--color--);
+    margin-left: 910px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.main .section2 p{
+    color: var(--color1--);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 910px;
+}
+.main .section3{
+    margin: 100px 0px;
+}
+.main .section3 .sec3_item a{
+    margin-left: 520px;
+    color: var(--color--);
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.main .section3 .sec3_item h2{
+    text-align: center;
+    color: var(--color4--);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 42px;
+}
+.main .section3 .sec3_title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.main .section3 .sec3_title li {
+    margin: 0 20px;
+}
+.main .section3 .sec3_title li .bx {
+    border: 1px solid var(--color4--);
+    border-radius: 50%;
+    padding: 16px 17px;
+    color: var(--color4--);
+    font-size: 37px;
+    transition: .65s;
+}
+.main .section3 .sec3_title li .bx:hover{
+    background-color: var(--color4--);
+    color: white;
+}
+.main .section3 .sec3_title li a{
+    color: var(--color4--);
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+.main .section3 .sec3_title li p{
+    width: 80%;
+    margin-left: 35px;
+    color: var(--color1--);
+    line-height: 25px;
+}
+.main .section4{
+    background: url(../img/IMAGE\ \(7\).png) no-repeat 0 0/ cover;
+    background-size: 100%;
+    padding: 245px 0px;
+    margin-top: 100px;
+}
+.main .section4 a{
+    color: var(--color--);
+    margin-left: 910px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.main .section4 p{
+    color: var(--color1--);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 910px;
+}
+.main .section5{
+    background-color: var(--color4--);
+}
+.main .section5 .container{
+    display: flex;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+.main .section5 .sec5_title a{
+    color: var(--color2--);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.main .section5 .sec5_title h2 {
+    color: var(--color2--);
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.main .section5 .sec5_title p {
+    color: var(--color2--);
+    width: 60%;
+    line-height: 25px;
+    margin-top: 10px;   
+}
+.main .section5 .sec5_item{
+    display: flex;
+    align-items: center;
+}
+.main .section5 .sec5_item .sec5_imgs1 img{
+    width: 140px;
+    margin: 20px 50px;
+}
+.main .section5 .sec5_item .sec5_imgs1 .sec5photo{
+    width: 130px;
+}
+.main .section6{
+    background: url(../img/IMAGE\ \(8\).png) no-repeat 0 0/ cover;
+    background-size: 100%;
+    padding: 240px 0px;
+}
+.main .section6 a{
+    color: var(--color--);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.main .section6 p{
+    color: var(--color1--);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 20%;
+    margin-top: 10px;
+}
+.main .section7{
+    background: #F7F7F7;
+    padding: 100px 0px;
+}
+.main .section7 .sec7_texts h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 42px;
+    color: var(--color4--);
+}
+.main .section7 .sec7_texts p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--color1--);
+    width: 45%;
+}
+.main .section7 .sec7_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.main .section7 .sec7_title img{
+    width: 300px;
+}
+.main .section7 .sec7_title .sec7_item{
+    background: url(../img/IMAGE\ \(10\).png);
+    width: 300px;
+    height: 365px;
+    background-size: 100%;
+}
+.main .section7 .sec7_title .sec7_item .sec7_link{
+    color: var(--color1--);
+    font-weight: 400;
+    font-size: 14px; 
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 30px 30px 0px 30px;
+}
+.main .section7 .sec7_title .sec7_item h3{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--color--);
+    margin: 0px 30px 0px 30px;
+}
+.main .section7 .sec7_title .sec7_item .sec7_link1{
+    border: 1px solid var(--color4--);
+    color: var(--color4--);
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 230px 0px 0px 30px;
+    transition: .60s;
+}
+.main .section7 .sec7_title .sec7_item .sec7_link1:hover{
+    background: var(--color4--);
+    color: white; 
+}
+.main .section7 a{
+    color: var(--color4--);
+    margin-left: 510px;
+    margin-top: 70px;
+}
+.main .section8 .container{
+    display: flex;
+    padding: 100px 0px 50px 0px;
+}
+.main .section8 .sec8_texts h2{
+    font-weight: 400;
+    color: var(--color--);
+    font-size: 30px;
+}
+.main .section8 .sec8_texts p {
+    color: var(--color1--);
+    line-height: 25px;
+    margin: 20px 0px 50px 0px;
+}
+.main .section8 .sec8_texts a{
+    border: 1px solid var(--color4--);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: var(--color4--);
+    font-weight: bold;
+    transition: .60s;
+}
+.main .section8 .sec8_texts a:hover{
+    background: var(--color4--);
+    color: white;
+}
+.main .section8 .sec8_title{
+    margin-left: 70px;
+}
+.main .section8 .sec8_title .sec8_items{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 50px 50px;
+}
+.main .section8 .sec8_title .sec8_items img{
+    width: 70px;
+}
+.main .section8 .sec8_title .sec8_items .sec8_subtexts {
+    margin-left: 20px;
+}
+.main .section8 .sec8_title .sec8_items .sec8_subtexts  h4 {
+    font-weight: 400;
+}
+.main .section8 .sec8_title .sec8_items .sec8_subtexts a{
+    color: var(--color1--);
+    font-size: 15px;
+}
+.main .section9{
+    background: #CEC4BC;
+}
+.main .section9 .container{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px;
+    align-items: center;
+}
+.main .section9 .sec9_texts p {
+    color: var(--color1--);
+}
+.main .section9 .sec9_texts h2 {
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--color4--);
+    width: 65%; 
+}
+.main .section9 .sec9_link a{
+    border: 1px solid var(--color4--);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: .60s;
+    font-weight: bold;
+    color: var(--color4--);
+}
+.main .section9 .sec9_link a:hover{
+    background-color: var(--color4--);
+    color: white;
+}
+.footer .container{
+    display: flex;
+    align-items: flex-end;
+    padding: 50px 0px;
+}
+.footer .footer_texts img{
+    width: 220px;
+    margin-bottom: 10px;
+}
+.footer .footer_texts p {
+    color: var(--color1--);
+    font-weight: 100;
+}
+.footer .footer_title {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.footer .footer_title li {
+    margin: 0 10px;
+}
+.footer .footer_title li .bx {
+    font-size: 30px;
+}
